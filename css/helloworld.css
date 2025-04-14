@@ -28,9 +28,7 @@ p {
     color: white;
     margin: 30px;
     padding: 20px;
-    border-style:dashed;
-    border-color: white;
-    border-width: 5px;
+    border: white;
     background-color:rgb(54, 100, 140);
 }
 
