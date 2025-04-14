@@ -24,6 +24,7 @@ p {
 }
 
 #content {
+    width: 800px;
     color: white;
     margin: 30px;
     padding: 20px;
