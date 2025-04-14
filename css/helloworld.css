@@ -1,0 +1,44 @@
+body {
+    background-color: deepskyblue;
+}
+
+h1,h2,h3 {
+    font-family: unset;
+}
+
+h1 {
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 200%
+}
+
+h2 {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 150%
+}
+
+p {
+    text-wrap: balance;
+    font-size: 150%
+}
+
+#content {
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    border-style:dashed;
+    border-color: white;
+    border-width: 5px;
+    background-color:rgb(54, 100, 140);
+}
+
+.minor-section {
+    color: black;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(54, 100, 140);
+    background-color: aliceblue;
+}
