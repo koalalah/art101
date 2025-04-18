@@ -1,8 +1,8 @@
 /* this css file will only style the homepage of our site */
 
 .my-portrait {
-  margin: 10px;
-  max-width: 300px;
+  margin: 80px;
+  max-width: 200px;
 }
 
 .my-portrait {
@@ -12,7 +12,7 @@
   width: 50%;
 }
 
-h2, p {
+h2 {
   display: block;
   margin-left:380px;
   width: 50%;
