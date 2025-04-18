@@ -4,8 +4,8 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #ffffff;
+    background-color: #fff9e0;
   }
 
   .screenshots {
@@ -13,5 +13,4 @@
    margin-left: auto;
    margin-right: auto;
     max-width: 500px;
-    
-  }
+    }
