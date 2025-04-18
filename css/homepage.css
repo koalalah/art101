@@ -1,6 +1,23 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
+.my-portrait {
   margin: 10px;
-  max-width: 500px;
+  max-width: 300px;
+}
+
+.my-portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2, p {
+  display: block;
+  margin-left:380px;
+  width: 50%;
+}
+
+p {
+  text-wrap: balance;
 }

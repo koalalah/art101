@@ -4,31 +4,37 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #98c9a6;
+  background-color: #ffffff;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   word-spacing: 5px;
   font-size: 200%;
 }
 
 h2 {
-    letter-spacing: 5px;
-    word-spacing: 5px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
     font-size: 150%;
 }
 
 h3 {
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   word-spacing: 5px;
   font-size: 150%;
+}
+
+p {
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-size: 100%
 }
 
 
@@ -36,14 +42,14 @@ h3 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #f9eca5;
+  border: solid 1px #ffffff;
+  background-color: #98c9a6;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
+  border: solid 1px #ffffff;
   background-color: #faffdf;
 }
