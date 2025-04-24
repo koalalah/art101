@@ -30,6 +30,7 @@ let currentYear = 2025;
 let carAge = currentYear - carYear;
 console.log("Age: ", carAge);
 
+document.open();
 document.writeln("Make: " + carName + "<br>");
 document.writeln("Model: " + carModel + "<br>");
 document.writeln("Color: " + carColor + "<br>");
