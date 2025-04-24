@@ -1,21 +1,37 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5: Datas and Variables
+// Author: Kayla Harimurti
+// Date: April 24 2025
 
-// Constants
+// let points=0; 
 
-// Functions
+// points=6;
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// points=54;
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
 
-// let's get this party started
-main();
+// let pointsMessage="Your current score is " + points;
+
+// console.log(pointsMessage);
+
+let carName = "Honda";
+console.log("Make: " + carName);
+
+let carModel = "Accord";
+console.log("Model: " + carModel);
+
+let carColor = "Lunar Silver";
+console.log("Car Color:" + carColor);
+
+let carYear = 2017;
+console.log("Year: " + carYear);
+
+let currentYear = 2025;
+
+let carAge = currentYear - carYear;
+console.log("Age: ", carAge);
+
+document.writeln("Make: " + carName + "<br>");
+document.writeln("Model: " + carModel + "<br>");
+document.writeln("Color: " + carColor + "<br>");
+document.writeln("Year: " + carYear + "<br>");
+document.writeln("Age: " + carAge + "<br>");
