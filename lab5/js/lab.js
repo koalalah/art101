@@ -36,3 +36,4 @@ document.writeln("Model: " + carModel + "<br>");
 document.writeln("Color: " + carColor + "<br>");
 document.writeln("Year: " + carYear + "<br>");
 document.writeln("Age: " + carAge + "<br>");
+
