@@ -31,22 +31,5 @@ Date: May 12 202
 
 // Sorts the characters of a string in alphabetical order.
 
-let oneLongString = "";
-
-for (let i = 1; i <= 200; i++) {
-    let output = "";
-
-    if (i % 3 === 0) output += "Fizz";
-    if (i % 5 === 0) output += "Buzz";
-    if (i % 7 === 0) output += "Boom";
-
-    console.log(output || i);
-
-    oneLongString += output + "<br>";
-    
-}
-
-$("#output").html(oneLongString);
-
 
 
