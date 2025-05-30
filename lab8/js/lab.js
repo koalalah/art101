@@ -40,3 +40,4 @@ var result = array.map(function(x){
 })
 
 console.log("squared of array", result);
+document.writeln("the numbers!!:" + result);
