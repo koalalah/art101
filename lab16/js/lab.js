@@ -29,26 +29,20 @@ Author: Kayla Harimurti
 Date: May 12 202
 */
 
-// Using the core $.ajax() method
 $.ajax({
-
-    url: "https://yesno.wtf/api",
-    data: { 
-           
-          },
+    url: "https://api.allorigins.win/get?url=" + encodeURIComponent("https://xkcd.com/info.0.json"),
     type: "GET",
-    dataType : "json",
+    dataType: "json",
 
-    success: function(data) {
-        // do stuff
-        console.log(data);
-        $("#output").append(data.answer);
-        $("#output").append("<img src="+data.image+">");
-
+    success: function(response) {
+        const data = JSON.parse(response.contents);
+        let comicDiv = $("<div></div>");
+         comicDiv.append(`<h2>${data.title}</h2>`);
+         comicDiv.append(`<img src="${data.img}" alt="${data.alt}" title="${data.alt}">`);
+        $("#output").append(comicDiv);
     },
 
-    error: function (jqXHR, textStatus, errorThrown) { 
-        // do stuff
+    error: function(jqXHR, textStatus, errorThrown) {
         console.log("Error:", textStatus, errorThrown);
     }
-})
+});
